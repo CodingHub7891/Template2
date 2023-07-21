@@ -1,0 +1,551 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    
+  }
+  li {
+    list-style: none;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+  }
+  
+  
+  
+  .navbar {
+    
+    
+    background-image: linear-gradient(to right, rgb(10, 10, 44) ,rgb(4, 4, 37));
+
+    padding: 0px 2rem;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  .btn {
+    font-size: 1.5rem;
+    display: none;
+    position: absolute;
+    right: 1rem;
+    font-size: large;
+    color: white;
+  }
+  .navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+   
+  }
+  
+  .navbar .links {
+    display: flex;
+    gap: 2rem;
+  }
+
+
+  .hero{
+    background-image: linear-gradient(to right, rgb(10, 10, 44) ,rgb(4, 4, 37));
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+  }
+
+  
+  
+  .text{
+     height:10rem;
+    width: 30rem; 
+
+  }
+
+  .image{
+    background-image: url("./slider-img.png");
+    background-size: cover;
+    height: 30rem;
+    width: 30rem;
+    
+  }
+  .but{
+    display:flex;
+    gap: 20px;
+  }
+  .b1{
+    padding: 1rem;
+    background-color: skyblue;
+    width: 10rem;
+    border: 2px solid skyblue ;
+    border-radius: 5px;
+    color:white;
+    font-size: 18px;
+   
+    
+  }
+  .b2{padding: 1rem;
+    background-color: rgb(227, 41, 41);
+    width: 10rem;
+    border: 2px solid rgb(227, 41, 41) ;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+  
+
+  }
+  .b1:hover{
+    background-color:transparent ;
+    
+   
+    
+    color: skyblue;
+  }
+  .b2:hover{ background-color: transparent;
+   
+    color:rgb(227, 41, 41) ;
+    
+  }
+  .col{
+    background-color: #f8f8f8; ;
+  }
+
+.services{
+  text-align: center;
+  padding: 2rem;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 3rem;
+   
+}
+.bx{
+  text-align: center;
+  border: 2px hidden black;
+  height: 18rem;
+  width: 20rem;
+  padding: 1rem;
+ box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+
+}
+.bx button{
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  color:rgb(76, 181, 223);
+ 
+}
+
+.bx button:hover{
+  color: rgb(227, 41, 41);
+}
+.bx .imgbox{
+  height:5rem;
+  width: 5rem;
+  border-radius: 50%;
+  border: 2px hidden black;
+  text-align: center;
+  position: relative;
+left: 100px;
+top: 10px;
+background-color:rgb(76, 181, 223);
+margin: 20px;
+}
+.bx:hover .imgbox{
+  background-color:rgb(227, 41, 41) ;
+}
+.imgbox img{
+  position: relative;
+  top: 15px;
+  height:3rem;
+  width: 3rem;
+}
+
+.about{
+  /* padding:2rem 2rem; */
+  display: flex;
+  justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 3rem;
+
+}
+.abtext{
+  width: 35rem;
+}
+.abtext  button{
+  padding: 10px;
+  width: 10rem;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(227, 41, 41) ;
+  border: 2px solid rgb(227, 41, 41) ;
+  color: white;
+}
+.abtext button:hover{
+  background-color: transparent;
+  
+  color:rgb(227, 41, 41) ;
+}
+.abimg img{height: 20rem;
+  width: 35rem;
+  
+
+}
+
+
+.server{
+  height:50vh;
+  background-color: rgb(4, 4, 37);
+  display: flex;
+  justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  
+}
+.serimg img{
+  height:20rem;
+  width: 35rem;
+
+}
+.sertext{
+  width: 40rem;
+  color: white;
+}
+
+.server  button{
+  padding: 10px;
+  width: 15rem;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(227, 41, 41) ;
+  border: 2px solid rgb(227, 41, 41) ;
+  color: white;
+}
+.server button:hover{
+  background-color: transparent;
+ 
+  color:rgb(227, 41, 41) ;
+}
+.ourpricing{
+
+  text-align: center;
+  padding: 3rem;
+}
+.pricing{ 
+  display: flex;
+  justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.pbox{
+  text-align: center;
+ 
+}
+.pricing .ptext{
+line-height: 30px;
+  border-radius: 2rem;
+  padding: 3rem 5rem;
+  margin: 2rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+}
+.ptext h3{
+  color: skyblue;
+}
+.pbutton button {
+  border: none;
+  padding: 1rem;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color:rgb(227, 41, 41) ;
+  color: white;
+  width: 8rem;
+  
+}
+.pbox:hover .ptext  {
+  background-color:skyblue ;
+  color: white;
+}
+.pbox:hover .ptext h3 {
+  color: white;
+}
+.pbox:hover .pbutton button {
+  background-color:skyblue ;
+ 
+}
+
+.testimonial{
+  text-align: center;
+  padding:2rem 3rem  5rem;
+}
+.ttext{
+  padding-bottom: 3rem;
+}
+.client{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.client .cimg img{height:8rem;
+  width: 8rem;
+  border-radius: 50%;
+  position: relative;
+  left:80px
+}
+.ctext h1{
+  color:skyblue ;
+  
+  font-size: 1.5rem;
+}
+.ctext h3{
+  color:rgb(227, 41, 41);
+  
+}
+.ctext{box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  padding: 2rem 2rem 2rem 6rem;
+  text-align: left;
+  
+  width: 50rem;
+
+
+}
+.getin{
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.getin h1{
+  padding-bottom: 2rem;
+}
+form input{margin: 10px;
+  height: 3rem;
+  width: 40rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  outline: none;
+
+}
+form button{
+  border: 2px solid rgb(227, 41, 41);
+  padding: 1rem;
+  background-color:rgb(227, 41, 41) ;
+  color: white;
+  width: 10rem;
+  font-size: 18px;
+}
+form button:hover{
+  background-color: transparent;
+  color: rgb(227, 41, 41);
+}
+.mess{
+  height: 6rem;
+}
+.foot{background-color:rgb(10, 10, 44) ;
+padding: 2rem;
+}
+ .address{
+ 
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 2rem; */
+  line-height: 30px;
+  gap: 20px;
+
+  color: aliceblue;
+}
+.add a ,.link a{
+  color: aliceblue;
+  text-decoration: none;
+  display: block;
+}
+.add a:hover ,.link a:hover{
+  color:rgb(227, 41, 41) ;
+}
+.subscribe input{
+  background-color: transparent;
+  border-top: none;
+  border-left: none;border-right: none;
+  color: aliceblue;
+  border-color: aliceblue;
+  outline: none;
+  font-size: 20px;
+  width: 20rem;
+}
+
+.subscribe button{
+  border: 2px solid rgb(227, 41, 41);
+  padding: 1rem;
+  background-color: rgb(227, 41, 41);
+  color: white;
+  width: 20rem;
+  font-size: 18px;
+ 
+}.add ,.link ,.subscribe{
+  height: 15rem;
+}
+.info{
+  width: 20rem;
+  height: 15rem;
+}
+.subscribe button:hover{
+  background-color: transparent;
+  color:rgb(227, 41, 41) ;
+}
+.copy{
+  padding: 2rem;
+  background-color:rgb(10, 10, 44)  ;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
+
+  @media screen and (max-width: 880px) {
+    .navbar .links {
+      display: none;
+    }
+    .navbar .btn {
+      display: block;
+    }
+    .hero{
+     flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5rem;
+      height: 100vh;
+     
+    }
+    .image{padding: 0%;
+      height: 20rem;
+      width: 20rem;
+      background-size: contain;
+    }
+  .b1{
+    padding:10px;
+    font-size: 15px;
+  }
+  .b2{
+    padding:10px;
+    font-size: 15px;
+  }
+    .services{
+      padding-top: 2rem;
+    }
+    
+    .text{
+      text-align: center;
+      width:20rem;
+      padding: 1rem;
+    }
+    .services h1 {padding: 2rem;}
+    .services{
+      padding: 2px;
+    }
+    
+    .box{
+      padding: 1rem;
+    }
+    .bx{
+      height: 20rem;
+      width: 20rem;
+    }
+    .about{
+      padding-bottom: 3rem;
+    }
+    .about h1{
+      padding-top: 3rem;
+      
+    }
+    .abtext{
+width: 20rem;
+    }
+    .abimg img{
+      width: 20rem;
+      
+    }
+    .server
+{
+  padding-top: 2rem;
+  height: 90vh;
+} 
+.serimg img{
+  width: 20rem;
+}  
+.sertext{
+  width: 20rem;
+} 
+.server button{
+  width: 10rem;
+}
+.testimonial{
+padding: 2rem 3rem 2rem;
+}
+.client{
+ flex-direction: column;
+ align-items: center;
+
+}
+
+.ttext{
+  padding: 0%;
+}
+.client .cimg img{
+  
+   position: relative;
+   left: 0px;
+  top:60px;
+}
+.ctext{
+ text-align: left;
+  width:15rem ;
+  padding: 5rem 2rem 3rem 2rem;
+}
+form input{
+  width: 18rem;
+}
+form button{
+  padding: 10px;
+}
+.address{flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0px;
+
+
+}
+.foot{
+  padding:3rem 0% 0%;
+}
+.subscribe{
+  height: 12rem;
+}
+.add{
+  height: 12rem;
+}
+.address .link{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+}
